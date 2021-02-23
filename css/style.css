@@ -1,6 +1,20 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: arial;
+}
+
+header{
+    background-color: white;
+    height: 70px;
+    line-height: 70px;
+}
+
 body{
     width: 80%;
     margin: auto;
+    background-color: rgb(246, 248, 249);
 }
 
 
@@ -21,12 +35,45 @@ main{
     background: white;
 }
 
+hr{
+    background-color: rgb(246, 248, 249);
+    color: rgb(246, 248, 249);
+    border: 0;
+    height: 2px;
+}
+
 p{
     display: inline-block;
 }
 
 .first{
     padding: 20px;
+    
+}
+
+button{
+    font-size: 10px;
+    padding: 5px;
+
+}
+
+.button1{
+    
+    
+    border-radius: 15% ;
+    background-color: rgb(69, 171, 234);
+    color: rgb(246, 248, 249);
+    border: 0;
+    width: 60.7px;
+    height: 25px;
+
+}
+
+.button2{
+    border-color: gray;
+    border-radius: 15%;
+    background-color: white;
+    color: gray;
 }
 
 .second{
@@ -34,7 +81,8 @@ p{
 }
 
 .special1{
-   
+    font-size: smaller;
+    text-align: center;
     width: 15px;
     height: 15px;
     display: inline-block;
@@ -43,20 +91,77 @@ p{
 }
 
 .special2{
+    box-sizing: border-box;
     display: inline-block;
-    width: 50px;
-    height: 15px;
+    height: 20px;
     border-radius: 35%;
     background-color: rgb(69, 171, 234);
+    
     
 
 }
 
+.special3{
+    font-size: smaller;
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
 .span-1{
     color: green;
+    padding: 2px;
 }
 
 .span-2{
-    font-size: 15px;
-    padding: 2px;
+    font-size: 10px;
+    padding: 4px;
+    color: white;
 }
+
+.pane-1{
+    box-sizing: border-box;
+    display: inline-block;
+    height: 20px;
+    border-radius: 35%;
+    background-color:purple;
+}
+
+.pane-2{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 20px;
+    border-radius: 35%;
+    background-color:greenyellow;
+}
+
+.pane-3{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 20px;
+    border-radius: 35%;
+    background-color:orange;
+}
+
+.pane-4{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 20px;
+    border-radius: 35%;
+    background-color:pink;
+}
+
+.pane-5{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 20px;
+    border-radius: 35%;
+    background-color: green;
+
+}
+
+
+
